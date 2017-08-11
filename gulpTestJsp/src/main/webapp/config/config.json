@@ -1,0 +1,15 @@
+{
+  "desktop" : {
+    "src" : [
+      "dev/desktop/js/**/*.js",
+      "!dev/desktop/js/vendor/**"
+    ],
+    "dest" : "build/desktop/js"
+  }, 
+  "app" : {
+    "cssSrc" : "src/main/webapp/static/css/app/*.css",
+    "cssDest" : "src/main/webapp/dest/css/app",
+    "jspSrc" : "src/main/webapp/page/app/*.jsp",
+    "jspDest" : "src/main/webapp/dest/jsp/app"
+  }
+}
